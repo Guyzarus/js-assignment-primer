@@ -26,22 +26,3 @@ export function calculateTotal(items, tax) {
 
   return total;
 }
-
-// function add (a, b) {
-//     return a + b;
-// }
-
-//console.log(add(100,200));
-
-// // calculateTotalImperative: (items: [{price: number, taxable: boolean}], tax: number) -> number
-// const calculateTotalImperative = (items, tax) => {
-//     let result = 0;
-//     for (const item of items) {
-//       const { price, taxable } = item;
-//       if (taxable) {
-//         result += price * Math.abs(tax);
-//       }
-//       result += price;
-//     }
-//     return result;
-//   };
